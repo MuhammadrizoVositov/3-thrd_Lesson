@@ -13,4 +13,5 @@ static void Main(string[] args)
     .RuleFor(student => student.EmailAdress, email => email.Person.Email);
 
 
+
 }
